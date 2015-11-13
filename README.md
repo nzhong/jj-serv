@@ -18,4 +18,8 @@ jj-server is a starting point for a micro-service java web server. It is
 How to run?
 ---------------------------------------------------------
 * ```mvn clean package```
-* ```java -jar target/app.jar```
+* ```java -jar target/jj-server-1.0-SNAPSHOT.jar```
+
+* Point browser to:
+* http://localhost:6060/static  should return static html/css/js
+* http://localhost:6060/test  is handled by REST controllers
